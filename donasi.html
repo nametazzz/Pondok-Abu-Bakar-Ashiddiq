@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donasi &amp; Wakaf — Pondok Pesantren Abu Bakar Ashiddiq</title>
+  <!-- DEMO: seluruh isi masih contoh, lihat README.md -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>📞 (0265) 000-000</span>
+      <span>✉️ info@abubakarashiddiq.sch.id</span>
+      <span>📍 Kab. Tasikmalaya, Jawa Barat</span>
+    </div>
+  </div>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">🕌 Abu Bakar Ashiddiq</a>
+      <button class="hamburger" id="hamburger" aria-label="Buka menu">☰</button>
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html">Beranda</a>
+        <div class="dropdown">
+          <button class="drop-btn">Program ▾</button>
+          <div class="drop-content">
+            <a href="program.html#boarding">Pesantren Terpadu (Boarding)</a>
+            <a href="program.html#fullday">Sekolah Full Day</a>
+            <a href="program.html#international">International Boarding</a>
+          </div>
+        </div>
+        <a href="berita.html">Events</a>
+        <a href="psb.html">Pendaftaran</a>
+        <div class="dropdown">
+          <button class="drop-btn">Berita ▾</button>
+          <div class="drop-content">
+            <a href="berita.html">Berita Terbaru</a>
+            <a href="berita.html">Pengumuman</a>
+            <a href="berita.html">Artikel</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="drop-btn">Tentang Kami ▾</button>
+          <div class="drop-content">
+            <a href="profil.html">Profil Pondok</a>
+            <a href="profil.html#pengasuh">Pengasuh</a>
+            <a href="galeri.html">Galeri &amp; Fasilitas</a>
+            <a href="kontak.html#faq">FAQ</a>
+          </div>
+        </div>
+        <a href="kontak.html" class="btn-nav">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Beranda</a> / Donasi &amp; Wakaf</p>
+      <h1>Donasi &amp; Wakaf — Investasi Dunia Akhirat</h1>
+      <p>Dukung beasiswa santri dan pembangunan fasilitas pondok.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Program Donasi</h2>
+      <div class="grid-3">
+        <div class="card"><div class="foto-frame">Foto: Santri</div><h3>Beasiswa Santri</h3><p>Bantu santri kurang mampu agar tetap bisa belajar dan menghafal.</p></div>
+        <div class="card"><div class="foto-frame">Foto: Pembangunan</div><h3>Pembangunan Masjid</h3><p>Perluasan dan perawatan masjid sebagai pusat kegiatan pondok.</p></div>
+        <div class="card"><div class="foto-frame">Foto: Al-Qur'an</div><h3>Wakaf Al-Qur'an</h3><p>Pengadaan mushaf dan kitab untuk santri dan perpustakaan.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section strip-abu">
+    <div class="container">
+      <h2 class="section-title">Salurkan Melalui Rekening</h2>
+      <div class="grid-2">
+        <!-- GANTI: nomor rekening & bank asli pondok -->
+        <div class="card rekening">
+          <h3>Bank Syariah Indonesia (BSI)</h3>
+          <p class="no-rek" id="rek1">0000000000</p>
+          <p>a.n. Pondok Pesantren Abu Bakar Ashiddiq</p>
+          <button class="btn btn-navy" data-salin="rek1">Salin Nomor Rekening</button>
+        </div>
+        <div class="card rekening">
+          <h3>Bank Muamalat</h3>
+          <p class="no-rek" id="rek2">1111111111</p>
+          <p>a.n. Pondok Pesantren Abu Bakar Ashiddiq</p>
+          <button class="btn btn-navy" data-salin="rek2">Salin Nomor Rekening</button>
+        </div>
+      </div>
+      <p class="salin-info" id="salinInfo"></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Konfirmasi Donasi</h2>
+      <p class="section-sub">Setelah transfer, isi formulir ini agar donasi tercatat dan bisa didoakan.</p>
+      <!-- CATATAN: formulir ini front-end saja, seperti formulir PSB. -->
+      <form class="form-card" id="formDonasi" novalidate style="max-width:560px;margin:0 auto;">
+        <label>Nama Donatur
+          <input type="text" id="dNama" placeholder="Nama lengkap / hamba Allah" required>
+        </label>
+        <label>Nominal Donasi (Rp)
+          <input type="number" id="dNominal" placeholder="mis. 100000" min="1" required>
+        </label>
+        <label>Program Donasi
+          <select id="dProgram" required>
+            <option value="">— Pilih Program —</option>
+            <option>Beasiswa Santri</option>
+            <option>Pembangunan Masjid</option>
+            <option>Wakaf Al-Qur'an</option>
+          </select>
+        </label>
+        <p class="form-error" id="donasiError"></p>
+        <button type="submit" class="btn btn-merah">Kirim Konfirmasi</button>
+        <p class="form-sukses" id="donasiSukses">✅ Jazakumullah khairan! Konfirmasi donasi sudah tercatat. Semoga menjadi amal jariyah.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer id="kontak">
+    <div class="container footer-grid">
+      <div>
+        <h3>🕌 Abu Bakar Ashiddiq</h3>
+        <p>Kab. Tasikmalaya, Jawa Barat<br>Telp: (0265) 000-000<br>Email: info@abubakarashiddiq.sch.id</p>
+      </div>
+      <div>
+        <h3>Program</h3>
+        <p><a href="program.html#boarding">Pesantren Terpadu</a><br>
+        <a href="program.html#fullday">Sekolah Full Day</a><br>
+        <a href="program.html#international">International Boarding</a></p>
+      </div>
+      <div>
+        <h3>Tentang</h3>
+        <p><a href="profil.html">Profil</a><br>
+        <a href="profil.html#pengasuh">Pengasuh</a><br>
+        <a href="kontak.html#faq">FAQ</a><br>
+        <a href="donasi.html">Donasi</a></p>
+      </div>
+      <div>
+        <h3>Ikuti Kami</h3>
+        <p><a href="#" onclick="return false;">Instagram</a> •
+        <a href="#" onclick="return false;">TikTok</a> •
+        <a href="#" onclick="return false;">YouTube</a> •
+        <a href="#" onclick="return false;">Facebook</a></p>
+        <p>Jam layanan: Senin–Sabtu, 08.00–16.00 WIB</p>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Pondok Pesantren Abu Bakar Ashiddiq (DEMO — seluruh isi masih contoh, lihat README.md)</p>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/6281234567890?text=Assalamu%27alaikum%2C%20saya%20ingin%20bertanya%20tentang%20donasi%20Pondok%20Pesantren%20Abu Bakar Ashiddiq"
+     target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+    💬 Butuh bantuan? Hubungi Kami
+  </a>
+
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal">
+      <button class="modal-close" id="modalClose" aria-label="Tutup">✕</button>
+      <h3 id="modalJudul"></h3>
+      <div id="modalIsi"></div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

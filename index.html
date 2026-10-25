@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pondok Pesantren Abu Bakar Ashiddiq — Mencetak Generasi Qur'ani</title>
+  <!-- ============================================================
+       DEMO TAMPILAN AWAL — WEBSITE PONDOK PESANTREN
+       Semua nama, angka, foto, dan kontak di file ini masih CONTOH.
+       Ganti sesuai data pondok yang sebenarnya (lihat README.md
+       untuk daftar lengkap yang harus diganti).
+       Cara jalanin: buka file ini di browser, atau pakai
+       extension Live Server di VS Code.
+       ============================================================ -->
+  <meta name="description" content="Website profil Pondok Pesantren Abu Bakar Ashiddiq — program tahfidz, pendidikan formal, dan penerimaan santri baru.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ TOPBAR ============ -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <!-- GANTI: nomor telepon, email, dan alamat pondok -->
+      <span>📞 (0265) 000-000</span>
+      <span>✉️ info@abubakarashiddiq.sch.id</span>
+      <span>📍 Kab. Tasikmalaya, Jawa Barat</span>
+    </div>
+  </div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <!-- GANTI: logo & nama pondok -->
+      <a href="index.html" class="logo">🕌 Abu Bakar Ashiddiq</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Buka menu">☰</button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html">Beranda</a>
+
+        <div class="dropdown">
+          <button class="drop-btn">Program ▾</button>
+          <div class="drop-content">
+            <a href="program.html#boarding">Pesantren Terpadu (Boarding)</a>
+            <a href="program.html#fullday">Sekolah Full Day</a>
+            <a href="program.html#international">International Boarding</a>
+          </div>
+        </div>
+
+        <a href="berita.html">Events</a>
+        <a href="psb.html">Pendaftaran</a>
+
+        <div class="dropdown">
+          <button class="drop-btn">Berita ▾</button>
+          <div class="drop-content">
+            <a href="berita.html">Berita Terbaru</a>
+            <a href="berita.html">Pengumuman</a>
+            <a href="berita.html">Artikel</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="drop-btn">Tentang Kami ▾</button>
+          <div class="drop-content">
+            <a href="profil.html">Profil Pondok</a>
+            <a href="profil.html#pengasuh">Pengasuh</a>
+            <a href="galeri.html">Galeri &amp; Fasilitas</a>
+            <a href="kontak.html#faq">FAQ</a>
+          </div>
+        </div>
+
+        <a href="kontak.html" class="btn-nav">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="beranda">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <!-- GANTI: headline & deskripsi sesuai visi pondok -->
+        <h1>Mencetak Generasi Penghafal Al-Qur'an yang Berakhlak &amp; Berprestasi</h1>
+        <p>Pendidikan Islam terpadu yang memadukan tahfidz, ilmu agama, akademik formal, dan pembinaan karakter — dalam lingkungan asrama yang aman dan terjaga.</p>
+        <div class="hero-cta">
+          <a href="psb.html" class="btn btn-merah">Daftar Sekarang</a>
+          <a href="brosur/e-brochure.pdf" class="btn btn-outline" download>Unduh E-Brochure</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <!-- GANTI: ganti div ini dengan <img src="img/hero.jpg"> foto asli pondok -->
+        <div class="foto-frame foto-hero">Foto: Suasana Pondok</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AKREDITASI & KURIKULUM ============ -->
+  <section class="strip">
+    <div class="container">
+      <h2 class="section-title">Akreditasi &amp; Kurikulum Kami</h2>
+      <!-- GANTI: isi dengan logo akreditasi/kurikulum asli -->
+      <div class="marquee">
+        <div class="marquee-track">
+          <span>Akreditasi A</span><span>Kurikulum Merdeka</span><span>Kurikulum Diniyah</span>
+          <span>Tahfidz Mutqin</span><span>Cambridge Assessment</span><span>Smart Classroom</span>
+          <span>Akreditasi A</span><span>Kurikulum Merdeka</span><span>Kurikulum Diniyah</span>
+          <span>Tahfidz Mutqin</span><span>Cambridge Assessment</span><span>Smart Classroom</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SEBARAN ALUMNI ============ -->
+  <section class="strip strip-abu">
+    <div class="container">
+      <h2 class="section-title">Lulusan Kami Telah Tersebar di Berbagai Perguruan Tinggi</h2>
+      <!-- GANTI: isi dengan kampus tujuan alumni yang sebenarnya -->
+      <div class="marquee">
+        <div class="marquee-track">
+          <span>Universitas Indonesia</span><span>ITB</span><span>UGM</span><span>Al-Azhar, Mesir</span>
+          <span>Universitas Islam Madinah</span><span>UNPAD</span><span>IPB</span><span>UIN Jakarta</span>
+          <span>Universitas Indonesia</span><span>ITB</span><span>UGM</span><span>Al-Azhar, Mesir</span>
+          <span>Universitas Islam Madinah</span><span>UNPAD</span><span>IPB</span><span>UIN Jakarta</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROGRAM ============ -->
+  <section class="section" id="program">
+    <div class="container">
+      <h2 class="section-title">Pelajari Program Kami</h2>
+      <p class="section-sub">Tiga jalur pendidikan, satu tujuan: santri yang hafidz, cerdas, dan berakhlak.</p>
+      <div class="grid-3">
+        <article class="card">
+          <div class="foto-frame">Foto: Asrama</div>
+          <h3>Pesantren Islam Terpadu (Boarding)</h3>
+          <p>SMP &amp; SMA — santri mukim penuh dengan program tahfidz intensif dan pembinaan karakter 24 jam.</p>
+          <a href="program.html#boarding" class="btn btn-navy">Selengkapnya</a>
+        </article>
+        <article class="card">
+          <div class="foto-frame">Foto: Kelas</div>
+          <h3>Sekolah Islam Terpadu (Full Day)</h3>
+          <p>PAUD/TK, SD &amp; SMP — pulang-pergi dengan kurikulum terpadu agama dan akademik.</p>
+          <a href="program.html#fullday" class="btn btn-navy">Selengkapnya</a>
+        </article>
+        <article class="card">
+          <div class="foto-frame">Foto: Kelas Internasional</div>
+          <h3>International Islamic Boarding School</h3>
+          <p>SMP — program boarding dengan pengantar bilingual dan persiapan studi luar negeri.</p>
+          <a href="program.html#international" class="btn btn-navy">Selengkapnya</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MENGAPA KAMI ============ -->
+  <section class="section section-navy" id="tentang">
+    <div class="container">
+      <h2 class="section-title">Mengapa Harus Abu Bakar Ashiddiq?</h2>
+      <div class="grid-4">
+        <div class="fitur">
+          <div class="fitur-ikon">📖</div>
+          <h3>Tahfidz Mutqin</h3>
+          <p>Metode setoran, murajaah, dan tasmi' yang menjaga hafalan tetap kuat, bukan sekadar selesai setoran.</p>
+        </div>
+        <div class="fitur">
+          <div class="fitur-ikon">🎓</div>
+          <h3>Akademik &amp; Teknologi</h3>
+          <p>Kurikulum formal plus smart classroom, aplikasi santri, dan kartu pintar untuk memantau perkembangan.</p>
+        </div>
+        <div class="fitur">
+          <div class="fitur-ikon">🕌</div>
+          <h3>Karakter Islami</h3>
+          <p>Pembinaan adab, ibadah, dan kepemimpinan lewat kehidupan asrama sehari-hari.</p>
+        </div>
+        <div class="fitur">
+          <div class="fitur-ikon">⚽</div>
+          <h3>Ekstrakurikuler</h3>
+          <p>Pramuka, panahan, renang, kaligrafi, robotik, dan bela diri untuk mengasah bakat santri.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TAHFIDZ & PENGASUH ============ -->
+  <section class="section" id="pengasuh">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <h2 class="section-title-left">Program Tahfidz Kami</h2>
+          <!-- GANTI: angka & nama pengasuh sesuai data asli -->
+          <p>Sejak berdiri, program tahfidz kami telah mencetak ratusan penghafal Al-Qur'an. Target kami bukan banyak-banyakan hafalan, tapi hafalan yang mutqin dan diamalkan.</p>
+          <div class="stats">
+            <div class="stat"><span class="stat-angka" data-target="500">0</span>+<small>Penghafal Al-Qur'an</small></div>
+            <div class="stat"><span class="stat-angka" data-target="1200">0</span>+<small>Santri Aktif</small></div>
+            <div class="stat"><span class="stat-angka" data-target="85">0</span>+<small>Ustadz &amp; Pengajar</small></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="foto-frame">Foto: Pengasuh</div>
+          <h3>KH. Ahmad Fauzi, Lc.</h3>
+          <p>Pendiri &amp; Pengasuh Pondok Pesantren Abu Bakar Ashiddiq. Alumni Timur Tengah, mengabdi membina santri sejak 2005.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BERITA ============ -->
+  <section class="section strip-abu" id="berita">
+    <div class="container">
+      <h2 class="section-title">Berita Terbaru</h2>
+      <div class="grid-3">
+        <article class="card">
+          <div class="foto-frame">Foto: Kegiatan</div>
+          <small>Mei 2026 • Kegiatan</small>
+          <h3>Wisuda Tahfidz Angkatan XII</h3>
+          <p>Sebanyak 60 santri diwisuda setelah menyelesaikan hafalan 30 juz dengan predikat mutqin.</p>
+          <a href="berita.html#wisuda" class="btn btn-text">Baca Selengkapnya →</a>
+        </article>
+        <article class="card">
+          <div class="foto-frame">Foto: Festival</div>
+          <small>Mei 2026 • Events</small>
+          <h3>Festival Anak Sholeh 2026</h3>
+          <p>Ajang tahunan yang mempertemukan ratusan peserta dari TK dan SD se-Kabupaten.</p>
+          <a href="berita.html#festival" class="btn btn-text">Baca Selengkapnya →</a>
+        </article>
+        <article class="card">
+          <div class="foto-frame">Foto: Kunjungan</div>
+          <small>April 2026 • Kerjasama</small>
+          <h3>Kunjungan Studi ke Malaysia</h3>
+          <p>Pimpinan pondok bertukar praktik pengelolaan pesantren dengan mitra di Malaysia.</p>
+          <a href="berita.html#malaysia" class="btn btn-text">Baca Selengkapnya →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KERJASAMA ============ -->
+  <section class="strip">
+    <div class="container">
+      <h2 class="section-title">Kerjasama</h2>
+      <!-- GANTI: isi dengan mitra asli pondok -->
+      <div class="chip-row">
+        <span>Malaysia</span><span>Turki</span><span>Mesir</span><span>Yordania</span>
+        <span>Sudan</span><span>Arab Saudi</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONI ============ -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Apa Kata Mereka?</h2>
+      <div class="slider" id="sliderTestimoni">
+        <div class="slider-track">
+          <blockquote class="slide">
+            <p>"Anak saya berubah total: hafalannya terjaga, adabnya membaik, dan prestasinya naik. Keputusan terbaik yang pernah kami ambil."</p>
+            <footer>— Orang Tua Santri, Angkatan 2023</footer>
+          </blockquote>
+          <blockquote class="slide">
+            <p>"Lingkungan asramanya terjaga dan pengajarnya perhatian. Sebagai alumni, saya bangga pernah menjadi bagian dari sini."</p>
+            <footer>— Alumni, kini mahasiswa di Timur Tengah</footer>
+          </blockquote>
+          <blockquote class="slide">
+            <p>"Program tahfidznya serius tapi tidak menekan. Anak-anak dibina sesuai kemampuannya masing-masing."</p>
+            <footer>— Orang Tua Santri, Angkatan 2024</footer>
+          </blockquote>
+        </div>
+        <div class="slider-nav">
+          <button id="slidePrev" aria-label="Testimoni sebelumnya">‹</button>
+          <span id="slideDots"></span>
+          <button id="slideNext" aria-label="Testimoni berikutnya">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FASILITAS ============ -->
+  <section class="section strip-abu" id="fasilitas">
+    <div class="container">
+      <h2 class="section-title">Fasilitas Penunjang</h2>
+      <div class="grid-4">
+        <div class="card"><div class="foto-frame">Foto: Asrama</div><h3>Asrama Santri</h3></div>
+        <div class="card"><div class="foto-frame">Foto: Masjid</div><h3>Masjid</h3></div>
+        <div class="card"><div class="foto-frame">Foto: Kelas</div><h3>Ruang Belajar</h3></div>
+        <div class="card"><div class="foto-frame">Foto: Lapangan</div><h3>Lapangan &amp; Kolam Renang</h3></div>
+      </div>
+      <p style="text-align:center;margin-top:24px;"><a href="galeri.html" class="btn btn-navy">Lihat Galeri Lengkap →</a></p>
+    </div>
+  </section>
+
+  <!-- ============ CTA PENDAFTARAN (formulir lengkap ada di psb.html) ============ -->
+  <section class="section section-navy" id="pendaftaran">
+    <div class="container cta-banner">
+      <h2 class="section-title">Penerimaan Santri Baru (PSB) Dibuka</h2>
+      <p class="section-sub">Alur: isi formulir minat → observasi → verifikasi berkas → santri resmi terdaftar.</p>
+      <a href="psb.html" class="btn btn-merah">Daftar Sekarang →</a>
+      <a href="psb.html#biaya" class="btn btn-outline" style="border-color:#fff;color:#fff;background:transparent;">Lihat Biaya Pendidikan</a>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <h2 class="section-title">Pertanyaan yang Sering Ditanyakan</h2>
+      <div class="faq">
+        <div class="faq-item">
+          <button class="faq-q">Kapan PSB dibuka? <span>+</span></button>
+          <div class="faq-a"><p>PSB dibuka setiap tahun ajaran baru. Gelombang pertama biasanya dibuka pada awal tahun — pantau bagian Berita atau hubungi panitia lewat WhatsApp untuk jadwal pastinya.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Apa saja syarat pendaftaran? <span>+</span></button>
+          <div class="faq-a"><p>Fotokopi KK, akta kelahiran, rapor terakhir, pas foto, dan surat keterangan sehat. Daftar lengkap akan diberikan panitia setelah formulir minat dikirim.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Apakah ada beasiswa? <span>+</span></button>
+          <div class="faq-a"><p>Tersedia beasiswa tahfidz dan beasiswa prestasi. Skema dan kuotanya diumumkan tiap gelombang PSB — tanyakan langsung ke panitia.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Bagaimana jadwal kunjungan / observasi? <span>+</span></button>
+          <div class="faq-a"><p>Kunjungan dibuka setiap hari kerja pada jam layanan. Hubungi kontak di bawah untuk membuat janji agar ada ustadz pendamping saat kunjungan.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DONASI (halaman lengkap ada di donasi.html) ============ -->
+  <section class="section strip-abu" id="donasi">
+    <div class="container cta-banner">
+      <h2 class="section-title">Donasi &amp; Wakaf — Investasi Dunia Akhirat</h2>
+      <p class="section-sub">Dukung beasiswa santri dan pembangunan fasilitas pondok.</p>
+      <a href="donasi.html" class="btn btn-navy">Salurkan Donasi →</a>
+    </div>
+  </section>
+
+  <!-- ============ KONTAK & FOOTER ============ -->
+  <footer id="kontak">
+    <div class="container footer-grid">
+      <div>
+        <h3>🕌 Abu Bakar Ashiddiq</h3>
+        <!-- GANTI: alamat, telepon, email, sosmed asli -->
+        <p>Kab. Tasikmalaya, Jawa Barat<br>Telp: (0265) 000-000<br>Email: info@abubakarashiddiq.sch.id</p>
+      </div>
+      <div>
+        <h3>Program</h3>
+        <p><a href="program.html#boarding">Pesantren Terpadu</a><br>
+        <a href="program.html#fullday">Sekolah Full Day</a><br>
+        <a href="program.html#international">International Boarding</a></p>
+      </div>
+      <div>
+        <h3>Tentang</h3>
+        <p><a href="profil.html">Profil</a><br>
+        <a href="profil.html#pengasuh">Pengasuh</a><br>
+        <a href="kontak.html#faq">FAQ</a><br>
+        <a href="donasi.html">Donasi</a></p>
+      </div>
+      <div>
+        <h3>Ikuti Kami</h3>
+        <p><a href="#" onclick="return false;">Instagram</a> •
+        <a href="#" onclick="return false;">TikTok</a> •
+        <a href="#" onclick="return false;">YouTube</a> •
+        <a href="#" onclick="return false;">Facebook</a></p>
+        <p>Jam layanan: Senin–Sabtu, 08.00–16.00 WIB</p>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Pondok Pesantren Abu Bakar Ashiddiq (DEMO — seluruh isi masih contoh, lihat README.md)</p>
+  </footer>
+
+  <!-- ============ TOMBOL WHATSAPP MELAYANG ============ -->
+  <!-- GANTI: nomor di wa.me dengan nomor WA panitia yang sebenarnya -->
+  <a class="wa-float" href="https://wa.me/6281234567890?text=Assalamu%27alaikum%2C%20saya%20ingin%20bertanya%20tentang%20PSB%20Pondok%20Pesantren%20Abu Bakar Ashiddiq"
+     target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+    💬 Butuh bantuan? Hubungi Kami
+  </a>
+
+  <!-- ============ MODAL (dipakai program, berita, & biaya) ============ -->
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal">
+      <button class="modal-close" id="modalClose" aria-label="Tutup">✕</button>
+      <h3 id="modalJudul"></h3>
+      <div id="modalIsi"></div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
