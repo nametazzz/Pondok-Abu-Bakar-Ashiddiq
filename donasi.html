@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Donasi &amp; Wakaf — Pondok Pesantren Abu Bakar Ashiddiq</title>
-  <!-- DEMO: seluruh isi masih contoh, lihat README.md -->
+  <!-- Konten mengikuti brosur resmi pondok (diterima 2026-11-03). Bagian yang datanya belum tersedia ditandai "menyusul". -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <div class="topbar">
     <div class="container topbar-inner">
-      <span>📞 (0265) 000-000</span>
-      <span>✉️ info@abubakarashiddiq.sch.id</span>
+      <span>📞 WA PSB: 0882-0042-8498</span>
+      <span>📷 IG: @pptqabubakarashiddiq</span>
       <span>📍 Kab. Tasikmalaya, Jawa Barat</span>
     </div>
   </div>
@@ -26,9 +26,9 @@
         <div class="dropdown">
           <button class="drop-btn">Program ▾</button>
           <div class="drop-content">
-            <a href="program.html#boarding">Pesantren Terpadu (Boarding)</a>
-            <a href="program.html#fullday">Sekolah Full Day</a>
-            <a href="program.html#international">International Boarding</a>
+            <a href="program.html#boarding">Tahfidz Al-Qur'an (Boarding)</a>
+            <a href="program.html#unggulan">Program Unggulan</a>
+            <a href="program.html#fasilitas">Fasilitas Pesantren</a>
           </div>
         </div>
         <a href="berita.html">Events</a>
@@ -59,7 +59,7 @@
     <div class="container">
       <p class="breadcrumb"><a href="index.html">Beranda</a> / Donasi &amp; Wakaf</p>
       <h1>Donasi &amp; Wakaf — Investasi Dunia Akhirat</h1>
-      <p>Dukung beasiswa santri dan pembangunan fasilitas pondok.</p>
+      <p>Salurkan infaq &amp; sedekah terbaik untuk santri penghafal Qur'an, pembangunan Masjid Jami', pendidikan, dan dakwah.</p>
     </div>
   </section>
 
@@ -67,9 +67,9 @@
     <div class="container">
       <h2 class="section-title">Program Donasi</h2>
       <div class="grid-3">
-        <div class="card"><div class="foto-frame">Foto: Santri</div><h3>Beasiswa Santri</h3><p>Bantu santri kurang mampu agar tetap bisa belajar dan menghafal.</p></div>
+        <div class="card"><div class="foto-frame">Foto: Santri Penghafal Qur'an</div><h3>Sedekah Jumat</h3><p>Program sedekah Rp25.000 untuk santri penghafal Qur'an — "menitipkan doa dalam setiap hafalan mereka."</p></div>
         <div class="card"><div class="foto-frame">Foto: Pembangunan</div><h3>Pembangunan Masjid</h3><p>Perluasan dan perawatan masjid sebagai pusat kegiatan pondok.</p></div>
-        <div class="card"><div class="foto-frame">Foto: Al-Qur'an</div><h3>Wakaf Al-Qur'an</h3><p>Pengadaan mushaf dan kitab untuk santri dan perpustakaan.</p></div>
+        <div class="card"><div class="foto-frame">Foto: Kegiatan Dakwah</div><h3>Pendidikan &amp; Dakwah</h3><p>Dukungan untuk program pendidikan dan dakwah pondok, serta kegiatan sosial.</p></div>
       </div>
     </div>
   </section>
@@ -77,19 +77,30 @@
   <section class="section strip-abu">
     <div class="container">
       <h2 class="section-title">Salurkan Melalui Rekening</h2>
-      <div class="grid-2">
-        <!-- GANTI: nomor rekening & bank asli pondok -->
+      <!-- Diisi dari brosur infaq resmi 2026-11-03. Rekening placeholder (000…/111… dan Bank Muamalat)
+           sudah diganti. Program "Sedekah Jumat" Rp25.000 untuk santri penghafal Qur'an sesuai flyer. -->
+      <div class="grid-3">
         <div class="card rekening">
-          <h3>Bank Syariah Indonesia (BSI)</h3>
-          <p class="no-rek" id="rek1">0000000000</p>
-          <p>a.n. Pondok Pesantren Abu Bakar Ashiddiq</p>
+          <h3>Sedekah Jumat — Santri Penghafal Qur'an</h3>
+          <p>Bank Syariah Indonesia (BSI)</p>
+          <p class="no-rek" id="rek1">7244333286</p>
+          <p>a.n. PTQ Abu Bakar Ash-Shiddiq</p>
+          <p><small>Konfirmasi transfer: 0813-2323-4720</small></p>
           <button class="btn btn-navy" data-salin="rek1">Salin Nomor Rekening</button>
         </div>
         <div class="card rekening">
-          <h3>Bank Muamalat</h3>
-          <p class="no-rek" id="rek2">1111111111</p>
-          <p>a.n. Pondok Pesantren Abu Bakar Ashiddiq</p>
+          <h3>Pembangunan Masjid — Yayasan</h3>
+          <p>Bank Syariah Indonesia (BSI)</p>
+          <p class="no-rek" id="rek2">7236281428</p>
+          <p>a.n. YYS Pondok Pesantren Abu Bakar</p>
           <button class="btn btn-navy" data-salin="rek2">Salin Nomor Rekening</button>
+        </div>
+        <div class="card rekening">
+          <h3>Pembangunan Masjid — Yayasan</h3>
+          <p>Bank Rakyat Indonesia (BRI)</p>
+          <p class="no-rek" id="rek3">444301011102539</p>
+          <p>a.n. Abu Bakar As Siddiq</p>
+          <button class="btn btn-navy" data-salin="rek3">Salin Nomor Rekening</button>
         </div>
       </div>
       <p class="salin-info" id="salinInfo"></p>
@@ -111,9 +122,10 @@
         <label>Program Donasi
           <select id="dProgram" required>
             <option value="">— Pilih Program —</option>
-            <option>Beasiswa Santri</option>
+            <option>Sedekah Jumat — Santri Penghafal Qur'an</option>
             <option>Pembangunan Masjid</option>
-            <option>Wakaf Al-Qur'an</option>
+            <option>Pendidikan &amp; Dakwah</option>
+            <option>Sosial</option>
           </select>
         </label>
         <p class="form-error" id="donasiError"></p>
@@ -127,13 +139,13 @@
     <div class="container footer-grid">
       <div>
         <h3>🕌 Abu Bakar Ashiddiq</h3>
-        <p>Kab. Tasikmalaya, Jawa Barat<br>Telp: (0265) 000-000<br>Email: info@abubakarashiddiq.sch.id</p>
+        <p>Kab. Tasikmalaya, Jawa Barat<br>WA PSB: 0882-0042-8498<br>Instagram: @pptqabubakarashiddiq</p>
       </div>
       <div>
         <h3>Program</h3>
-        <p><a href="program.html#boarding">Pesantren Terpadu</a><br>
-        <a href="program.html#fullday">Sekolah Full Day</a><br>
-        <a href="program.html#international">International Boarding</a></p>
+        <p><a href="program.html#boarding">Tahfidz (Boarding)</a><br>
+        <a href="program.html#unggulan">Program Unggulan</a><br>
+        <a href="program.html#fasilitas">Fasilitas Pesantren</a></p>
       </div>
       <div>
         <h3>Tentang</h3>
@@ -144,17 +156,14 @@
       </div>
       <div>
         <h3>Ikuti Kami</h3>
-        <p><a href="#" onclick="return false;">Instagram</a> •
-        <a href="#" onclick="return false;">TikTok</a> •
-        <a href="#" onclick="return false;">YouTube</a> •
-        <a href="#" onclick="return false;">Facebook</a></p>
-        <p>Jam layanan: Senin–Sabtu, 08.00–16.00 WIB</p>
+        <p>Instagram: @pptqabubakarashiddiq</p>
+        <p>Info &amp; pendaftaran: WhatsApp PSB 0882-0042-8498</p>
       </div>
     </div>
-    <p class="copyright">© 2026 Pondok Pesantren Abu Bakar Ashiddiq (DEMO — seluruh isi masih contoh, lihat README.md)</p>
+    <p class="copyright">© 2026 Pondok Pesantren Abu Bakar Ashiddiq — Kab. Tasikmalaya, Jawa Barat</p>
   </footer>
 
-  <a class="wa-float" href="https://wa.me/6281234567890?text=Assalamu%27alaikum%2C%20saya%20ingin%20bertanya%20tentang%20donasi%20Pondok%20Pesantren%20Abu Bakar Ashiddiq"
+  <a class="wa-float" href="https://wa.me/6288200428498?text=Assalamu%27alaikum%2C%20saya%20ingin%20bertanya%20tentang%20donasi%20Pondok%20Pesantren%20Abu Bakar Ashiddiq"
      target="_blank" rel="noopener" aria-label="Chat WhatsApp">
     💬 Butuh bantuan? Hubungi Kami
   </a>

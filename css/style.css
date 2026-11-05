@@ -78,6 +78,12 @@ a { color: inherit; }
 }
 .foto-hero { min-height: 320px; font-size: 18px; }
 
+/* ---------- Foto asli (Cloudinary) ---------- */
+.foto-img { width: 100%; height: 190px; object-fit: cover; border-radius: var(--radius); display: block; }
+.foto-img-hero { height: 320px; }
+.galeri-item img { width: 100%; height: 200px; object-fit: cover; border-radius: var(--radius); display: block; }
+.galeri-item p { color: #4b5563; font-size: 14px; margin-top: 4px; }
+
 /* ---------- Marquee ---------- */
 .marquee { overflow: hidden; mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); }
 .marquee-track { display: flex; gap: 16px; width: max-content; animation: jalan 28s linear infinite; }

@@ -53,28 +53,14 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") tutupModal();
 });
 
-// Data program — GANTI isi sesuai program pondok yang sebenarnya
+// Data program — diisi dari brosur PSB resmi pondok (2026-11-03)
 const DATA_PROGRAM = {
   boarding: {
-    judul: "Pesantren Islam Terpadu (Boarding)",
-    isi: `<p><b>Jenjang:</b> SMP &amp; SMA — santri mukim penuh.</p>
-      <p><b>Program unggulan:</b> Tahfidz intensif (target 30 juz), diniyah &amp; kitab kuning, bahasa Arab &amp; Inggris harian, pembinaan karakter 24 jam.</p>
-      <p><b>Kegiatan harian:</b> shalat berjamaah, setoran hafalan, murajaah, olahraga, dan belajar malam terbimbing.</p>
-      <p><a href="#pendaftaran" onclick="tutupModal()">Daftar program ini →</a></p>`,
-  },
-  fullday: {
-    judul: "Sekolah Islam Terpadu (Full Day)",
-    isi: `<p><b>Jenjang:</b> PAUD/TK, SD &amp; SMP — pulang-pergi (07.00–16.00).</p>
-      <p><b>Program unggulan:</b> Tahfidz bertahap, kurikulum Merdeka terpadu nilai Islam, tahsin &amp; tahfidz harian, ekstrakurikuler pilihan.</p>
-      <p><b>Cocok untuk:</b> keluarga yang ingin pendidikan Islam terpadu tanpa asrama.</p>
-      <p><a href="#pendaftaran" onclick="tutupModal()">Daftar program ini →</a></p>`,
-  },
-  international: {
-    judul: "International Islamic Boarding School",
-    isi: `<p><b>Jenjang:</b> SMP — boarding dengan pengantar bilingual (Indonesia–Inggris).</p>
-      <p><b>Program unggulan:</b> Tahfidz, persiapan studi luar negeri, pertukaran pelajar, dan kurikulum internasional pendamping.</p>
-      <p><b>Syarat tambahan:</b> tes bahasa Inggris dasar saat observasi.</p>
-      <p><a href="#pendaftaran" onclick="tutupModal()">Daftar program ini →</a></p>`,
+    judul: "Tahfidz Al-Qur'an (Boarding) — SMP & SMA",
+    isi: `<p><b>Jenjang:</b> SMP &amp; SMA — santri mukim penuh, ikhwan &amp; akhwat.</p>
+      <p><b>Program unggulan:</b> Tahfidz Al-Qur'an dengan 2 riwayat (Hafsh &amp; Syu'bah) dibimbing pengajar bersanad bersertifikat CTrQ, Bahasa Arab Dasar, hafalan hadits pilihan, praktik ibadah yang benar, dan khotam (qiro'ah) Al-Qur'an rutin.</p>
+      <p><b>Pembiasaan harian:</b> shalat jamaah tepat waktu, shalat sunnah, doa &amp; dzikir harian, dan adab Islami.</p>
+      <p><a href="psb.html">Daftar program ini →</a></p>`,
   },
 };
 document.querySelectorAll("[data-program]").forEach((el) => {
@@ -84,22 +70,25 @@ document.querySelectorAll("[data-program]").forEach((el) => {
   });
 });
 
-// Data berita — GANTI dengan berita asli pondok
+// Data berita/pengumuman — hanya dari materi resmi pondok (brosur & flyer, 2026-11-03)
 const DATA_BERITA = {
-  wisuda: {
-    judul: "Wisuda Tahfidz Angkatan XII",
-    isi: `<p>Sebanyak 60 santri diwisuda setelah menyelesaikan hafalan 30 juz dengan predikat mutqin. Acara dihadiri orang tua santri, pengasuh, dan tokoh masyarakat.</p>
-      <p>Dalam sambutannya, pengasuh berpesan agar hafalan dijaga dengan murajaah rutin dan diamalkan dalam kehidupan sehari-hari.</p>`,
+  psb: {
+    judul: "PSB Tahun Ajaran 2027/2028 Dibuka",
+    isi: `<p>Penerimaan santri baru Pondok Pesantren Abu Bakar Ashiddiq telah dibuka untuk Tahun Ajaran 2027/2028 (juga 2026/2027), jenjang SMP &amp; SMA — ikhwan &amp; akhwat.</p>
+      <p><b>Biaya:</b> pendaftaran Rp200.000; syariah bulanan Rp350.000. Keunggulan: menghafal dengan 2 riwayat (Hafsh &amp; Syu'bah) bersama pengajar bersanad.</p>
+      <p>Info &amp; pendaftaran: WhatsApp PSB 0882-0042-8498, Admin 0851-9851-0721, atau halaman <a href="psb.html">Pendaftaran</a>.</p>`,
   },
-  festival: {
-    judul: "Festival Anak Sholeh 2026",
-    isi: `<p>Ajang tahunan yang mempertemukan ratusan peserta dari TK dan SD se-Kabupaten. Lomba yang digelar antara lain hafalan surat pendek, adzan, mewarnai kaligrafi, dan cerdas cermat Islam.</p>
-      <p>Festival ini menjadi ajang silaturahmi antar lembaga sekaligus mengenalkan pondok kepada masyarakat luas.</p>`,
+  "sedekah-jumat": {
+    judul: "Sedekah Jumat — Rp25.000 untuk Santri Penghafal Qur'an",
+    isi: `<p>"Sedekah untuk santri bukan sekadar memberi, tapi menitipkan doa dalam setiap hafalan mereka."</p>
+      <p>Kirimkan infak terbaik melalui <b>BSI 7244333286</b> a.n. PTQ Abu Bakar Ash-Shiddiq. Konfirmasi transfer: 0813-2323-4720.</p>
+      <p>Detail rekening lain ada di halaman <a href="donasi.html">Donasi</a>.</p>`,
   },
-  malaysia: {
-    judul: "Kunjungan Studi ke Malaysia",
-    isi: `<p>Pimpinan pondok melakukan kunjungan studi banding ke sejumlah lembaga pendidikan Islam di Malaysia untuk bertukar praktik pengelolaan pesantren, kurikulum tahfidz, dan pembinaan santri.</p>
-      <p>Hasil kunjungan akan diterapkan pada program pembinaan santri tahun ajaran berikutnya.</p>`,
+  "infaq-masjid": {
+    judul: "Infaq Pembangunan Masjid Jami' Abu Bakar Ashiddiq",
+    isi: `<p>Pondok menerima &amp; menyalurkan infaq/shodaqoh untuk pembangunan masjid, pendidikan/dakwah, dan sosial.</p>
+      <p><b>BSI 7236281428</b> a.n. YYS Pondok Pesantren Abu Bakar • <b>BRI 444301011102539</b> a.n. Abu Bakar As Siddiq.</p>
+      <p>Detail ada di halaman <a href="donasi.html">Donasi</a>.</p>`,
   },
 };
 document.querySelectorAll("[data-berita]").forEach((el) => {
@@ -209,9 +198,9 @@ if (formPSB) {
     }
     err.textContent = "";
     ok.classList.add("tampil");
-    // GANTI nomor di bawah dengan nomor WA panitia yang sebenarnya
+    // Nomor WA PSB dari poster resmi pondok (0882-0042-8498).
     const pesan = encodeURIComponent(
-      `Assalamu'alaikum, saya ${nama}. Saya berminat mendaftarkan santri pada program ${program} jenjang ${jenjang}. Mohon info PSB selanjutnya.`
+      `Assalamu'alaikum, saya ${nama}. Saya berminat mendaftarkan santri pada kategori ${program} jenjang ${jenjang}. Mohon info PSB selanjutnya.`
     );
     let lanjut = document.getElementById("waLanjut");
     if (!lanjut) {
@@ -223,7 +212,7 @@ if (formPSB) {
       lanjut.textContent = "Lanjutkan ke WhatsApp Panitia →";
       ok.after(lanjut);
     }
-    lanjut.href = `https://wa.me/6281234567890?text=${pesan}`;
+    lanjut.href = `https://wa.me/6288200428498?text=${pesan}`;
     lanjut.style.display = "inline-block";
     lanjut.style.marginTop = "10px";
     formPSB.reset();
@@ -269,23 +258,7 @@ document.querySelectorAll("[data-salin]").forEach((btn) => {
 
 // ---------- 10. Berita tambahan + buka modal dari hash URL ----------
 // Contoh: berita.html#wisuda langsung membuka detail berita tersebut.
-DATA_BERITA["psb-gelombang"] = {
-  judul: "PSB Gelombang 2 Dibuka",
-  isi: `<p>Pendaftaran santri baru gelombang kedua resmi dibuka dengan kuota terbatas per jenjang.
-    Gelombang ini diperuntukkan bagi pendaftar yang belum sempat mengikuti gelombang pertama.</p>
-    <p>Silakan isi formulir minat di halaman <a href="psb.html">Pendaftaran</a> atau hubungi panitia lewat WhatsApp.</p>`,
-};
-DATA_BERITA["haul"] = {
-  judul: "Haul & Pengajian Akbar Tahunan",
-  isi: `<p>Ribuan jamaah hadir dalam pengajian akbar dan doa bersama di masjid pondok.
-    Acara ini juga menjadi ajang silaturahmi antara alumni, wali santri, dan masyarakat sekitar.</p>`,
-};
-DATA_BERITA["prestasi"] = {
-  judul: "Santri Raih Juara MTQ Provinsi",
-  isi: `<p>Dua santri membawa pulang juara pada Musabaqah Tilawatil Qur'an tingkat provinsi,
-    masing-masing pada cabang tilawah dan tahfidz. Prestasi ini melanjutkan tradisi juara pondok
-    pada ajang serupa tahun-tahun sebelumnya.</p>`,
-};
+// Pengumuman lain ditambahkan setelah ada materi resmi dari pondok.
 (function bukaBeritaDariHash() {
   const kunci = (window.location.hash || "").replace("#", "");
   if (kunci && DATA_BERITA[kunci]) {

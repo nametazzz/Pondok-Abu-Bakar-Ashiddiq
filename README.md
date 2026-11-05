@@ -1,9 +1,9 @@
-# Website Pondok Pesantren — Tampilan Awal (DEMO)
+# Website Pondok Pesantren Abu Bakar Ashiddiq
 
 Demo halaman depan website pondok pesantren, strukturnya mengacu ke
 referensi dqm.sch.id (navigasi, hero, program, berita, fasilitas,
 PSB, FAQ, donasi, tombol WhatsApp melayang). Dibuat sebagai bahan
-diskusi dengan kepala pondok — **seluruh isi masih contoh**.
+diskusi dengan kepala pondok. Per 2026-11-05 konten sudah diisi dari brosur resmi pondok + foto Cloudinary yang tersedia; bagian yang datanya belum ada ditandai "menyusul" (lihat Status Konten di bawah).
 
 ## Cara menjalankan di VS Code
 
@@ -19,7 +19,7 @@ diskusi dengan kepala pondok — **seluruh isi masih contoh**.
 ```
 index.html          Beranda
 profil.html         Profil pondok, visi-misi, pengasuh, legalitas
-program.html        Detail 3 program + tabel perbandingan
+program.html        Program pondok dari brosur resmi (tahfidz boarding, unggulan, pembiasaan, fasilitas)
 psb.html            Alur PSB, syarat, biaya, formulir minat
 berita.html         Daftar berita & events (klik = detail modal)
 galeri.html         Galeri foto + filter kategori
@@ -71,3 +71,27 @@ aktif ditandai otomatis oleh `js/script.js`.
 3. Beli domain + hosting, lalu upload seluruh isi folder ini.
 4. Tambahkan halaman-halaman lain (Profil lengkap, Program per jenjang,
    Berita detail) — kerangka halamannya sudah disiapkan di chat.
+
+## Status Konten (per 2026-11-05)
+
+Sudah diisi dari brosur resmi pondok (poster PSB 2027/2028, brosur lipat PSB
+2026/2027, flyer Sedekah Jumat, brosur infaq pembangunan masjid — transkripsi
+di `Referensi-Informasi-Pondok-Abu-Bakar.md`):
+
+- Biaya PSB asli (pendaftaran Rp200.000; syariah Rp350.000/bulan), syarat
+  berkas, alur pendaftaran, kontak panitia PSB (WA 0882-0042-8498, Admin
+  Khaerul Umam, Sekretaris Jajang M Ikhsan, IG @pptqabubakarashiddiq)
+- Program tahfidz 2 riwayat (Hafsh & Syu'bah), program unggulan, pembiasaan,
+  program tahunan, ekstrakurikuler, fasilitas pondok & olahraga
+- Visi, misi, tujuan pendidikan (4 pilar), profil pengajar bersanad/CTrQ
+- Rekening donasi asli (BSI 7244333286 PTQ; BSI 7236281428 YYS; BRI
+  444301011102539) + konfirmasi 0813-2323-4720
+- Galeri: 3 foto asli via Cloudinary (gedung asrama, kamar santri, halaqah
+  tahfidz) — daftar URL di `galeri-cloudinary.md`
+
+Masih "menyusul" (belum ada data resmi — ditandai jelas di halaman terkait):
+
+- Alamat lengkap pondok (brosur memuat dua alamat berbeda: Sukaresik vs
+  Singaparna — menunggu konfirmasi pondok mana yang utama)
+- Sejarah berdiri, nama pengasuh, data legalitas/akreditasi, berita kegiatan
+- Foto kategori fasilitas & kegiatan lain (baru 3 foto yang ter-upload)
