@@ -95,3 +95,14 @@ Masih "menyusul" (belum ada data resmi — ditandai jelas di halaman terkait):
   Singaparna — menunggu konfirmasi pondok mana yang utama)
 - Sejarah berdiri, nama pengasuh, data legalitas/akreditasi, berita kegiatan
 - Foto kategori fasilitas & kegiatan lain (baru 3 foto yang ter-upload)
+
+Update 2026-11-05 (brief terisi diterima dari pondok): alamat utama
+TERKONFIRMASI Kp. Sukasenang RT.01/RW.03, Margamulya, Sukaresik; pimpinan
+Asep Juhana, S.Pd.I; berdiri 2020; 50 santri & 4 pengajar; email
+atep.juhana@gmail.com; WA utama website 0852-2324-6565 (Ustadz Asep Juhana,
+menggantikan nomor poster); pendaftaran via
+https://bit.ly/ppdb-abubakaradshiddiq-tasikmalaya periode 17 Okt–25 Jun;
+target tahfidz 30 juz terkonfirmasi dari brief. Instagram di website memakai
+versi brief @pondokpesantrenabubakarashidiq — materi resmi memuat 3 ejaan
+berbeda (@pptqabubakarashiddiq di poster, @pptqabubakarashidiq di pengumuman),
+menunggu konfirmasi pondok mana yang benar.

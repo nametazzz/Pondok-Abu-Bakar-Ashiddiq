@@ -233,3 +233,53 @@ BUKAN data Pondok Abu Bakar. Jangan dipakai untuk konten website.
    2026/2027 + brosur infaq masjid)
 Kemungkinan pondok pindah lokasi atau punya dua lokasi — tentukan alamat utama
 yang akan tampil di website sebelum publikasi.
+
+✅ TERKONFIRMASI 2026-11-05: alamat utama = alamat #1 (Sukasenang, Margamulya,
+Sukaresik) — ditegaskan profil resmi pondok, pengumuman PSB 2027/2028, dan
+brief terisi. Alamat Singaparna tampaknya lokasi lama/materi lama.
+
+
+---
+
+## F. Data Resmi Terbaru — Brief Terisi & Materi Pondok (diterima 2026-11-05)
+
+Sumber: (1) PDF Brief Pembuatan Website yang sudah diisi pihak pondok
+(diisi oleh: Fadhl Musa Alu Ahmad), (2) teks pengumuman "Open Registration
+Santri Baru 2027/2028", (3) teks profil resmi pondok (3 versi; versi 2
+singkat-padat dipakai dasar teks profil web).
+
+- **Alamat utama (TERKONFIRMASI)**: Kp. Sukasenang RT.01/RW.03, Desa
+  Margamulya, Kec. Sukaresik, Kab. Tasikmalaya, Jawa Barat. Lokasi strategis
+  dekat Jl. Raya Nasional Ciawi–Rajapolah; dikelilingi pepohonan rindang dan
+  pemukiman warga; suasana kondusif untuk belajar.
+- **Berdiri**: tahun 2020.
+- **Pimpinan Pondok**: Asep Juhana, S.Pd.I (di brief tertulis "ustadz asep
+  juhana" sebagai pemegang nomor WA utama).
+- **Jumlah santri**: 50 orang. **Jumlah pengajar**: 4 orang. (Kolom jumlah di
+  brief kosong; angka dari teks profil resmi pondok.)
+- **Email**: atep.juhana@gmail.com.
+- **Kontak utama website (sesuai brief)**: WhatsApp **+62 852-2324-6565**
+  (Ustadz Asep Juhana). Nomor ini MENGGANTIKAN nomor poster 0882-0042-8498
+  sebagai kontak utama di website. Kontak brosur lain tetap dicatat: Admin
+  Khaerul Umam 0851-9851-0721; Sekretaris Jajang M Ikhsan 0823-1962-2273;
+  konfirmasi donasi 0813-2323-4720.
+- **Pendaftaran**: link resmi https://bit.ly/ppdb-abubakaradshiddiq-tasikmalaya
+  — periode **17 Oktober – 25 Juni** (sampai kuota santri terpenuhi).
+- **Program yang benar-benar berjalan (brief)**: program unggulan tahfidz
+  **30 juz**; menghafal Al-Qur'an dengan 2 riwayat (Syu'bah & Hafsh);
+  menguasai ilmu dasar tahsin dan tajwid secara menyeluruh. Pengumuman PSB
+  menambahkan keunggulan: mengkaji hukum-hukum ilmu dasar tajwid secara rinci.
+- **Tujuan website (brief)**: memperkenalkan profil pondok + memudahkan
+  pendaftaran santri baru + informasi bagi wali santri + menerima donasi.
+  Kesan tampilan yang diminta: **modern, warna biru**.
+- **Visi & misi**: sama seperti poster (misi #5 versi brief/pengumuman:
+  "Membentuk pribadi siswa berakhlak Mulia").
+- ⚠️ **Instagram — TIGA ejaan berbeda di materi resmi**: poster
+  @pptqabubakarashiddiq; pengumuman PSB @pptqabubakarashidiq; brief terisi
+  @pondokpesantrenabubakarashidiq. Website sementara memakai versi brief
+  (@pondokpesantrenabubakarashidiq) — perlu konfirmasi pondok mana akun
+  yang benar.
+- ⚠️ Ejaan nama di brief: "Abu Bakar Ashidiq" (satu d); website & poster
+  memakai "Ashiddiq". Website tetap memakai "Ashiddiq".
+- Kolom yang masih kosong di brief: rekening donasi (website tetap memakai
+  rekening dari brosur infaq), foto pimpinan, catatan khusus.

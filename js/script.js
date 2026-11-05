@@ -76,7 +76,7 @@ const DATA_BERITA = {
     judul: "PSB Tahun Ajaran 2027/2028 Dibuka",
     isi: `<p>Penerimaan santri baru Pondok Pesantren Abu Bakar Ashiddiq telah dibuka untuk Tahun Ajaran 2027/2028 (juga 2026/2027), jenjang SMP &amp; SMA — ikhwan &amp; akhwat.</p>
       <p><b>Biaya:</b> pendaftaran Rp200.000; syariah bulanan Rp350.000. Keunggulan: menghafal dengan 2 riwayat (Hafsh &amp; Syu'bah) bersama pengajar bersanad.</p>
-      <p>Info &amp; pendaftaran: WhatsApp PSB 0882-0042-8498, Admin 0851-9851-0721, atau halaman <a href="psb.html">Pendaftaran</a>.</p>`,
+      <p>Pendaftaran dibuka 17 Oktober–25 Juni (sampai kuota terpenuhi) lewat <a href="https://bit.ly/ppdb-abubakaradshiddiq-tasikmalaya" target="_blank" rel="noopener">formulir online resmi</a>. Info: WhatsApp 0852-2324-6565 (Ustadz Asep Juhana) atau halaman <a href="psb.html">Pendaftaran</a>.</p>`,
   },
   "sedekah-jumat": {
     judul: "Sedekah Jumat — Rp25.000 untuk Santri Penghafal Qur'an",
@@ -198,7 +198,7 @@ if (formPSB) {
     }
     err.textContent = "";
     ok.classList.add("tampil");
-    // Nomor WA PSB dari poster resmi pondok (0882-0042-8498).
+    // Nomor WA utama dari brief terisi pondok (0852-2324-6565, Ustadz Asep Juhana).
     const pesan = encodeURIComponent(
       `Assalamu'alaikum, saya ${nama}. Saya berminat mendaftarkan santri pada kategori ${program} jenjang ${jenjang}. Mohon info PSB selanjutnya.`
     );
@@ -212,7 +212,7 @@ if (formPSB) {
       lanjut.textContent = "Lanjutkan ke WhatsApp Panitia →";
       ok.after(lanjut);
     }
-    lanjut.href = `https://wa.me/6288200428498?text=${pesan}`;
+    lanjut.href = `https://wa.me/6285223246565?text=${pesan}`;
     lanjut.style.display = "inline-block";
     lanjut.style.marginTop = "10px";
     formPSB.reset();
