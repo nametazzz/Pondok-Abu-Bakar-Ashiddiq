@@ -102,7 +102,6 @@ Asep Juhana, S.Pd.I; berdiri 2020; 50 santri & 4 pengajar; email
 atep.juhana@gmail.com; WA utama website 0852-2324-6565 (Ustadz Asep Juhana,
 menggantikan nomor poster); pendaftaran via
 https://bit.ly/ppdb-abubakaradshiddiq-tasikmalaya periode 17 Okt–25 Jun;
-target tahfidz 30 juz terkonfirmasi dari brief. Instagram di website memakai
-versi brief @pondokpesantrenabubakarashidiq — materi resmi memuat 3 ejaan
-berbeda (@pptqabubakarashiddiq di poster, @pptqabubakarashidiq di pengumuman),
-menunggu konfirmasi pondok mana yang benar.
+target tahfidz 30 juz terkonfirmasi dari brief. Instagram yang benar adalah
+@pptqabubakarashiddiq (dikonfirmasi user 2026-11-05; website sudah diganti
+dari versi brief @pondokpesantrenabubakarashidiq).

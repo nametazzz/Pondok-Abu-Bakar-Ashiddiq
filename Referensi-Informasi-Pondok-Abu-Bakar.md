@@ -274,11 +274,11 @@ singkat-padat dipakai dasar teks profil web).
   Kesan tampilan yang diminta: **modern, warna biru**.
 - **Visi & misi**: sama seperti poster (misi #5 versi brief/pengumuman:
   "Membentuk pribadi siswa berakhlak Mulia").
-- ⚠️ **Instagram — TIGA ejaan berbeda di materi resmi**: poster
-  @pptqabubakarashiddiq; pengumuman PSB @pptqabubakarashidiq; brief terisi
-  @pondokpesantrenabubakarashidiq. Website sementara memakai versi brief
-  (@pondokpesantrenabubakarashidiq) — perlu konfirmasi pondok mana akun
-  yang benar.
+- ✅ **Instagram — TERKONFIRMASI (user, 2026-11-05)**: username yang benar
+  adalah **@pptqabubakarashiddiq**. Materi resmi sebelumnya memuat tiga
+  ejaan berbeda: poster @pptqabubakarashiddiq; pengumuman PSB
+  @pptqabubakarashidiq; brief terisi @pondokpesantrenabubakarashidiq.
+  Website sudah memakai username yang terkonfirmasi.
 - ⚠️ Ejaan nama di brief: "Abu Bakar Ashidiq" (satu d); website & poster
   memakai "Ashiddiq". Website tetap memakai "Ashiddiq".
 - Kolom yang masih kosong di brief: rekening donasi (website tetap memakai
