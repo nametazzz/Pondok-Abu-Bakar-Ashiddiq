@@ -1,5 +1,5 @@
 /* ============================================================
-   Semua interaksi halaman — tanpa library, tanpa backend.
+   Semua interaksi halaman berjalan tanpa library dan tanpa backend.
    Tiap blok dijaga (cek elemen dulu) supaya halaman tetap jalan
    meski satu section dihapus saat edit.
    ============================================================ */
@@ -53,11 +53,11 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") tutupModal();
 });
 
-// Data program — diisi dari brosur PSB resmi pondok (2026-11-03)
+// Data program pondok
 const DATA_PROGRAM = {
   boarding: {
-    judul: "Tahfidz Al-Qur'an (Boarding) — SMP & SMA",
-    isi: `<p><b>Jenjang:</b> SMP &amp; SMA — santri mukim penuh, ikhwan &amp; akhwat.</p>
+    judul: "Tahfidz Al-Qur'an (Boarding) untuk SMP dan SMA",
+    isi: `<p><b>Jenjang:</b> SMP &amp; SMA dengan sistem mukim penuh untuk ikhwan &amp; akhwat.</p>
       <p><b>Program unggulan:</b> Tahfidz Al-Qur'an dengan 2 riwayat (Hafsh &amp; Syu'bah) dibimbing pengajar bersanad bersertifikat CTrQ, Bahasa Arab Dasar, hafalan hadits pilihan, praktik ibadah yang benar, dan khotam (qiro'ah) Al-Qur'an rutin.</p>
       <p><b>Pembiasaan harian:</b> shalat jamaah tepat waktu, shalat sunnah, doa &amp; dzikir harian, dan adab Islami.</p>
       <p><a href="psb.html">Daftar program ini →</a></p>`,
@@ -70,23 +70,23 @@ document.querySelectorAll("[data-program]").forEach((el) => {
   });
 });
 
-// Data berita/pengumuman — hanya dari materi resmi pondok (brosur & flyer, 2026-11-03)
+// Data berita dan pengumuman pondok
 const DATA_BERITA = {
   psb: {
     judul: "PSB Tahun Ajaran 2027/2028 Dibuka",
-    isi: `<p>Penerimaan santri baru Pondok Pesantren Abu Bakar Ashiddiq telah dibuka untuk Tahun Ajaran 2027/2028 (juga 2026/2027), jenjang SMP &amp; SMA — ikhwan &amp; akhwat.</p>
+    isi: `<p>Penerimaan santri baru Pondok Pesantren Abu Bakar Ashiddiq telah dibuka untuk Tahun Ajaran 2027/2028 (juga 2026/2027), jenjang SMP &amp; SMA untuk ikhwan &amp; akhwat.</p>
       <p><b>Biaya:</b> pendaftaran Rp200.000; syariah bulanan Rp350.000. Keunggulan: menghafal dengan 2 riwayat (Hafsh &amp; Syu'bah) bersama pengajar bersanad.</p>
-      <p>Pendaftaran dibuka 17 Oktober–25 Juni (sampai kuota terpenuhi) lewat <a href="https://bit.ly/ppdb-abubakaradshiddiq-tasikmalaya" target="_blank" rel="noopener">formulir online resmi</a>. Info: WhatsApp 0852-2324-6565 (Ustadz Asep Juhana) atau halaman <a href="psb.html">Pendaftaran</a>.</p>`,
+      <p>Pendaftaran dibuka pada 17 Oktober sampai 25 Juni (sampai kuota terpenuhi) lewat <a href="https://bit.ly/ppdb-abubakaradshiddiq-tasikmalaya" target="_blank" rel="noopener">formulir online resmi</a>. Info: WhatsApp 0852-2324-6565 (Ustadz Asep Juhana) atau halaman <a href="psb.html">Pendaftaran</a>.</p>`,
   },
   "sedekah-jumat": {
-    judul: "Sedekah Jumat — Rp25.000 untuk Santri Penghafal Qur'an",
+    judul: "Sedekah Jumat Rp25.000 untuk Santri Penghafal Qur'an",
     isi: `<p>"Sedekah untuk santri bukan sekadar memberi, tapi menitipkan doa dalam setiap hafalan mereka."</p>
       <p>Kirimkan infak terbaik melalui <b>BSI 7244333286</b> a.n. PTQ Abu Bakar Ash-Shiddiq. Konfirmasi transfer: 0813-2323-4720.</p>
       <p>Detail rekening lain ada di halaman <a href="donasi.html">Donasi</a>.</p>`,
   },
   "infaq-masjid": {
     judul: "Infaq Pembangunan Masjid Jami' Abu Bakar Ashiddiq",
-    isi: `<p>Pondok menerima &amp; menyalurkan infaq/shodaqoh untuk pembangunan masjid, pendidikan/dakwah, dan sosial.</p>
+    isi: `<p>Pondok menerima &amp; menyalurkan infaq dan sedekah untuk pembangunan masjid, pendidikan, dakwah, dan kegiatan sosial.</p>
       <p><b>BSI 7236281428</b> a.n. YYS Pondok Pesantren Abu Bakar • <b>BRI 444301011102539</b> a.n. Abu Bakar As Siddiq.</p>
       <p>Detail ada di halaman <a href="donasi.html">Donasi</a>.</p>`,
   },
@@ -192,13 +192,13 @@ if (formPSB) {
       return;
     }
     if (!/^08\d{8,13}$/.test(wa)) {
-      err.textContent = "Nomor WhatsApp harus diawali 08 dan 10–15 digit.";
+      err.textContent = "Nomor WhatsApp harus diawali 08 dan terdiri dari 10 sampai 15 digit.";
       ok.classList.remove("tampil");
       return;
     }
     err.textContent = "";
     ok.classList.add("tampil");
-    // Nomor WA utama dari brief terisi pondok (0852-2324-6565, Ustadz Asep Juhana).
+    // Nomor WhatsApp utama pondok (0852-2324-6565, Ustadz Asep Juhana).
     const pesan = encodeURIComponent(
       `Assalamu'alaikum, saya ${nama}. Saya berminat mendaftarkan santri pada kategori ${program} jenjang ${jenjang}. Mohon info PSB selanjutnya.`
     );
@@ -258,7 +258,7 @@ document.querySelectorAll("[data-salin]").forEach((btn) => {
 
 // ---------- 10. Berita tambahan + buka modal dari hash URL ----------
 // Contoh: berita.html#wisuda langsung membuka detail berita tersebut.
-// Pengumuman lain ditambahkan setelah ada materi resmi dari pondok.
+// Pengumuman lain dapat ditambahkan pada data berita.
 (function bukaBeritaDariHash() {
   const kunci = (window.location.hash || "").replace("#", "");
   if (kunci && DATA_BERITA[kunci]) {
