@@ -51,17 +51,17 @@
     <div class="container">
       <p class="breadcrumb"><a href="index.html">Beranda</a> / Pendaftaran</p>
       <h1>Penerimaan Santri Baru (PSB)</h1>
-      <p>Isi formulir minat di bawah ini. Panitia akan menghubungi Ayah/Bunda lewat WhatsApp.</p>
+      <p>Pendaftaran dilakukan melalui formulir pendaftaran online resmi pondok. Panitia akan menghubungi Ayah/Bunda lewat WhatsApp setelah pendaftaran masuk.</p>
     </div>
   </section>
 
   <section class="section">
-    <div class="container grid-2">
+    <div class="container">
       <div>
         <p style="margin-bottom:16px;">Pendaftaran dibuka untuk <b>Tahun Ajaran 2026/2027 dan 2027/2028</b> pada periode <b>17 Oktober sampai 25 Juni</b> atau hingga kuota santri terpenuhi. Jenjang yang tersedia adalah <b>SMP &amp; SMA</b> untuk ikhwan &amp; akhwat.</p>
         <h2 class="section-title-left">Alur Pendaftaran</h2>
         <ol class="langkah">
-          <li>Isi formulir pendaftaran (online lewat formulir di samping, atau offline di pondok)</li>
+          <li>Isi formulir pendaftaran online resmi pondok, atau datang langsung ke pondok untuk pendaftaran offline</li>
           <li>Panitia menghubungi Ayah/Bunda lewat WhatsApp</li>
           <li>Verifikasi berkas pendaftaran</li>
           <li>Pembayaran biaya pendaftaran Rp200.000</li>
@@ -84,32 +84,6 @@
         <p style="margin-top:12px;">Tersedia potongan biaya untuk pendaftar awal &amp; santri berprestasi, serta jalur beasiswa bagi calon santri penghafal Qur'an. Tanyakan syarat &amp; ketentuannya kepada Admin.</p>
         <p style="margin-top:16px;"><a href="https://bit.ly/ppdb-abubakaradshiddiq-tasikmalaya" target="_blank" rel="noopener" class="btn btn-navy">Formulir Pendaftaran Online Resmi →</a></p>
       </div>
-      <!-- CATATAN: formulir ini front-end saja (validasi + pesan sukses + lanjut WA).
-           Agar data tersimpan otomatis, hubungkan ke Google Form / backend saat go-live. -->
-      <form class="form-card" id="formPSB" novalidate>
-        <label>Nama Calon Santri
-          <input type="text" id="fNama" placeholder="Nama lengkap" required>
-        </label>
-        <label>Nomor WhatsApp Orang Tua
-          <input type="tel" id="fWA" placeholder="08xxxxxxxxxx" required>
-        </label>
-        <label>Kategori Santri
-          <select id="fProgram" required>
-            <option value="">Pilih Kategori</option>
-            <option value="Ikhwan">Ikhwan</option>
-            <option value="Akhwat">Akhwat</option>
-          </select>
-        </label>
-        <label>Jenjang
-          <select id="fJenjang" required>
-            <option value="">Pilih Jenjang</option>
-            <option>SMP</option><option>SMA</option>
-          </select>
-        </label>
-        <p class="form-error" id="formError"></p>
-        <button type="submit" class="btn btn-merah">Kirim Formulir Minat</button>
-        <p class="form-sukses" id="formSukses">✅ Terima kasih! Data minat sudah tercatat. Panitia akan menghubungi nomor WhatsApp yang diisi.</p>
-      </form>
     </div>
   </section>
 
