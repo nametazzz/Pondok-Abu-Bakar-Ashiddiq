@@ -285,7 +285,7 @@ footer#kontak a:hover { text-decoration: underline; }
 
 /* ---------- Logo pondok ---------- */
 .logo { display: inline-flex; align-items: center; gap: 10px; }
-.logo-chip { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: var(--hijau-tua); border-radius: 8px; padding: 3px; flex: none; }
-.logo-chip img { width: 100%; height: 100%; object-fit: contain; display: block; mix-blend-mode: screen; }
+.logo-chip { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: none; flex: none; }
+.logo-chip img { width: 100%; height: 100%; object-fit: contain; display: block; }
 .logo-footer { display: inline-flex; align-items: center; gap: 10px; }
-.logo-footer img { width: 40px; height: 40px; object-fit: contain; mix-blend-mode: screen; }
+.logo-footer img { width: 40px; height: 40px; object-fit: contain; background: #fff; border-radius: 50%; padding: 2px; }
