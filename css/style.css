@@ -10,7 +10,7 @@
   --hijau: #0a8a45;
   --hijau-muda: #dcfce7;
   --emas: #c1a540;
-  --abu: #eef2f7;
+  --abu: #f0fdf4;
   --teks: #1f2937;
   --muted: #5b6472;
   --garis: #e8ecf1;
@@ -122,7 +122,7 @@ a { color: inherit; }
 .cek-sub:first-of-type { margin-top: 2px; }
 .ceklist { list-style: none; margin: 0; padding: 0; text-align: left; }
 .ceklist li { position: relative; padding-left: 30px; margin-bottom: 12px; color: #334155; font-size: 15px; line-height: 1.55; }
-.ceklist li::before { content: ""; position: absolute; left: 0; top: 2px; width: 20px; height: 20px; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230e2a5c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M8 12.5l2.5 2.5L16 9.5'/%3E%3C/svg%3E") center/contain no-repeat; }
+.ceklist li::before { content: ""; position: absolute; left: 0; top: 2px; width: 20px; height: 20px; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230a8a45' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M8 12.5l2.5 2.5L16 9.5'/%3E%3C/svg%3E") center/contain no-repeat; }
 
 /* ---------- Statistik ---------- */
 
@@ -137,6 +137,7 @@ a { color: inherit; }
 .slide footer { margin-top: 14px; font-weight: 700; color: var(--hijau-tua); background: none; padding: 0; }
 .slider-nav { display: flex; justify-content: center; align-items: center; gap: 16px; margin-top: 12px; }
 .slider-nav button { width: 44px; height: 44px; border-radius: 50%; border: 1px solid #d1d5db; background: #fff; font-size: 22px; cursor: pointer; }
+#slideDots { display: inline-flex; gap: 8px; }
 .dot { width: 10px; height: 10px; border-radius: 50%; background: #d1d5db; border: none; cursor: pointer; padding: 0; }
 .dot.aktif { background: var(--hijau-tua); }
 
@@ -153,7 +154,7 @@ a { color: inherit; }
 .psb-intro { text-align: center; max-width: 1080px; margin: 0 auto 28px; }
 .psb-card { background: #fff; border: 1px solid var(--garis); border-radius: var(--radius); box-shadow: var(--shadow-card); padding: 40px 44px; max-width: 1080px; margin: 0 auto; }
 .psb-card .timeline { margin-top: 0; }
-.psb-layout { display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px; align-items: stretch; }
+.psb-layout { display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px; align-items: start; }
 .psb-samping { background: var(--abu); border-radius: var(--radius); padding: 28px; }
 .psb-divider { border: 0; border-top: 1px solid var(--garis); margin: 36px 0; }
 .psb-subjudul { color: var(--hijau-tua); font-size: 20px; font-weight: 800; margin-bottom: 16px; }
@@ -188,7 +189,7 @@ a { color: inherit; }
 .salin-info { text-align: center; color: #065f46; font-weight: 600; margin-top: 16px; min-height: 22px; }
 
 /* ---------- Footer & WA melayang ---------- */
-footer#kontak { background: linear-gradient(180deg, var(--hijau-gelap), #081831); color: #cbd5e1; padding: 48px 0 0; }
+footer#kontak { background: linear-gradient(180deg, var(--hijau-gelap), #16281c); color: #d1e7d6; padding: 48px 0 0; }
 .footer-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; padding-bottom: 32px; }
 footer#kontak h3 { color: #fff; font-size: 16px; font-weight: 700; margin-bottom: 10px; }
 footer#kontak a { text-decoration: none; }
