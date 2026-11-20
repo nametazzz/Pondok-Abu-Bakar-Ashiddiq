@@ -66,6 +66,8 @@ a { color: inherit; }
 .strip-abu { background: var(--abu); }
 .section-title { text-align: center; font-size: 30px; font-weight: 800; letter-spacing: -0.3px; color: var(--navy); margin-bottom: 12px; }
 .section-navy .section-title { color: #fff; }
+.section-navy .rata-kiri { text-align: left; }
+.section-navy h1.section-title { font-size: 36px; }
 .section-title-left { font-size: 30px; font-weight: 800; letter-spacing: -0.3px; color: var(--navy); margin-bottom: 12px; }
 .section-sub { text-align: center; color: var(--muted); margin-bottom: 36px; font-size: 16px; }
 
