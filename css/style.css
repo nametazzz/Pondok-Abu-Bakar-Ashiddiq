@@ -144,9 +144,9 @@ a { color: inherit; }
 .langkah-item:last-child { padding-bottom: 0; }
 .langkah-ikon { flex: 0 0 64px; width: 64px; height: 64px; border-radius: 50%; background: var(--merah); display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 20px rgba(217,32,39,.3); position: relative; z-index: 1; }
 .langkah-ikon svg { width: 32px; height: 32px; stroke: #fff; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-.langkah-label { font-size: 13px; font-weight: 800; letter-spacing: .08em; color: var(--merah); text-transform: uppercase; margin-bottom: 4px; }
-.langkah-item h3 { font-size: 22px; font-weight: 800; letter-spacing: -0.2px; color: var(--navy); margin-bottom: 6px; }
-.langkah-item p { color: var(--muted); font-size: 15px; line-height: 1.65; }
+.langkah-label { font-size: 12px; font-weight: 800; letter-spacing: .08em; color: var(--merah); text-transform: uppercase; margin-bottom: 4px; }
+.langkah-item h3 { font-size: 18px; font-weight: 800; letter-spacing: -0.2px; color: var(--navy); margin-bottom: 6px; }
+.langkah-item p { color: var(--muted); font-size: 14px; line-height: 1.65; }
 .psb-intro { text-align: center; max-width: 1080px; margin: 0 auto 28px; }
 .psb-card { background: #fff; border: 1px solid var(--garis); border-radius: var(--radius); box-shadow: var(--shadow-card); padding: 40px 44px; max-width: 1080px; margin: 0 auto; }
 .psb-card .timeline { margin-top: 0; }
@@ -232,7 +232,6 @@ footer a:hover { text-decoration: underline; }
   .langkah-ikon svg { width: 28px; height: 28px; }
   .timeline::before { left: 27px; }
   .langkah-item { gap: 16px; padding-bottom: 36px; }
-  .langkah-item h3 { font-size: 20px; }
 }
 
 /* ---------- Halaman dalam (multipage) ---------- */
