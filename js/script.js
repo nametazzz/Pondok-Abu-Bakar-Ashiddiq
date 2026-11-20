@@ -304,6 +304,9 @@ if (formDonasi) {
       return;
     }
     err.textContent = "";
+    const nominalRp = "Rp" + Number(nominal).toLocaleString("id-ID");
+    const pesan = "Assalamu'alaikum, saya ingin konfirmasi donasi.\n\nNama: " + nama + "\nNominal: " + nominalRp + "\nProgram: " + program;
+    window.open("https://wa.me/6281323234720?text=" + encodeURIComponent(pesan), "_blank");
     ok.classList.add("tampil");
     formDonasi.reset();
   });
