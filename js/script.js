@@ -73,8 +73,8 @@ document.querySelectorAll("[data-program]").forEach((el) => {
 // Data berita dan pengumuman pondok
 const DATA_BERITA = {
   psb: {
-    judul: "PSB Tahun Ajaran 2027/2028 Dibuka",
-    isi: `<p>Penerimaan santri baru Pondok Pesantren Abu Bakar Ashiddiq telah dibuka untuk Tahun Ajaran 2027/2028 (juga 2026/2027), jenjang SMP &amp; SMA untuk ikhwan &amp; akhwat.</p>
+    judul: "PSB Tahun Ajaran Baru Dibuka",
+    isi: `<p>Penerimaan santri baru Pondok Pesantren Abu Bakar Ashiddiq telah dibuka untuk tahun ajaran baru, jenjang SMP &amp; SMA untuk ikhwan &amp; akhwat.</p>
       <p><b>Biaya:</b> pendaftaran Rp200.000; syariah bulanan Rp350.000. Keunggulan: menghafal dengan 2 riwayat (Hafsh &amp; Syu'bah) bersama pengajar bersanad.</p>
       <p>Pendaftaran dibuka pada 17 Oktober sampai 25 Juni (sampai kuota terpenuhi) lewat <a href="https://bit.ly/ppdb-abubakaradshiddiq-tasikmalaya" target="_blank" rel="noopener">formulir online resmi</a>. Info: WhatsApp 0852-2324-6565 (Ustadz Asep Juhana) atau halaman <a href="psb.html">Pendaftaran</a>.</p>`,
   },
