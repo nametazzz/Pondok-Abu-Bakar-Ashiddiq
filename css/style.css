@@ -98,7 +98,9 @@ a { color: inherit; }
 
 /* ---------- Grid & kartu ---------- */
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: stretch; }
-.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: stretch; }
+.grid-3 .card { display: flex; flex-direction: column; }
+.grid-3 .card .btn { margin-top: auto; }
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
 .card { background: #fff; border: 1px solid var(--garis); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow-card); transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease; }
 .card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); border-color: #bbf7d0; }
