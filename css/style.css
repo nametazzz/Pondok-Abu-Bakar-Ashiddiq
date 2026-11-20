@@ -112,9 +112,11 @@ a { color: inherit; }
 .card h3 { color: var(--navy); font-size: 18px; font-weight: 700; margin: 12px 0 6px; }
 .card small { color: #64748b; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .section-navy .card { color: var(--teks); }
-.fitur { text-align: center; }
-.fitur h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
-.fitur p { color: #cbd5e1; font-size: 15px; }
+.fitur-card { background: #fff; border-radius: var(--radius); padding: 32px 24px; text-align: center; box-shadow: 0 12px 32px rgba(0,0,0,.18); }
+.fitur-ikon-lingkaran { width: 72px; height: 72px; border-radius: 50%; background: var(--navy); display: inline-flex; align-items: center; justify-content: center; margin-bottom: 20px; }
+.fitur-ikon-lingkaran svg { width: 36px; height: 36px; stroke: #fff; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.fitur-card h3 { font-size: 20px; font-weight: 800; letter-spacing: -0.2px; color: var(--navy); margin-bottom: 10px; }
+.fitur-card p { color: var(--muted); font-size: 15px; line-height: 1.65; }
 
 /* ---------- Statistik ---------- */
 .stats { display: flex; gap: 32px; margin-top: 28px; }
@@ -200,6 +202,7 @@ footer a:hover { text-decoration: underline; }
   .hero-inner, .grid-2 { grid-template-columns: 1fr; }
   .grid-3 { grid-template-columns: 1fr; }
   .grid-4, .footer-grid { grid-template-columns: 1fr 1fr; }
+  #tentang .grid-4 { grid-template-columns: 1fr; max-width: 420px; margin: 0 auto; }
   .hero-text h1 { font-size: 32px; }
   .topbar-inner { gap: 12px; }
 }
