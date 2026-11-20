@@ -102,7 +102,7 @@ a { color: inherit; }
 .card small { color: #64748b; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .section-navy .card { color: var(--teks); }
 .fitur-card { background: #fff; border-radius: var(--radius); padding: 32px 24px; text-align: center; box-shadow: 0 12px 32px rgba(0,0,0,.18); }
-.fitur-ikon-lingkaran { width: 72px; height: 72px; border-radius: 50%; background: var(--navy); display: inline-flex; align-items: center; justify-content: center; margin-bottom: 20px; }
+.fitur-ikon-lingkaran { width: 72px; height: 72px; border-radius: 50%; background: var(--navy); display: inline-flex; align-items: center; justify-content: center; align-self: center; margin-bottom: 20px; }
 .fitur-ikon-lingkaran svg { width: 36px; height: 36px; stroke: #fff; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .fitur-card h3 { font-size: 20px; font-weight: 800; letter-spacing: -0.2px; color: var(--navy); margin-bottom: 10px; }
 .fitur-card p { color: var(--muted); font-size: 15px; line-height: 1.65; }
