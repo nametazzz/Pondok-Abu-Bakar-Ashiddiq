@@ -69,8 +69,6 @@ a { color: inherit; }
 .section-title { text-align: center; font-size: 30px; font-weight: 800; letter-spacing: -0.3px; color: var(--navy); margin-bottom: 12px; }
 .section-navy .section-title { color: #fff; }
 .section-title-left { font-size: 30px; font-weight: 800; letter-spacing: -0.3px; color: var(--navy); margin-bottom: 12px; }
-.section-title::after { content: ""; display: block; width: 56px; height: 4px; background: var(--merah); border-radius: 2px; margin: 14px auto 0; }
-.section-title-left::after { content: ""; display: block; width: 56px; height: 4px; background: var(--merah); border-radius: 2px; margin: 14px 0 0; }
 .section-sub { text-align: center; color: var(--muted); margin-bottom: 36px; font-size: 16px; }
 
 /* ---------- Hero ---------- */
@@ -109,7 +107,7 @@ a { color: inherit; }
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: start; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
-.card { background: #fff; border: 1px solid var(--garis); border-top: 3px solid var(--navy); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow-card); transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease; }
+.card { background: #fff; border: 1px solid var(--garis); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow-card); transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease; }
 .card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); border-color: #dbe2ec; }
 .card h3 { color: var(--navy); font-size: 18px; font-weight: 700; margin: 12px 0 6px; }
 .card small { color: #64748b; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
