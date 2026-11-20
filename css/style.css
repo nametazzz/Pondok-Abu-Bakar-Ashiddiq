@@ -75,6 +75,8 @@ a { color: inherit; }
 .hero-text h1 { font-size: 44px; font-weight: 800; line-height: 1.15; letter-spacing: -0.5px; color: var(--navy); margin-bottom: 16px; }
 .hero-text p { color: var(--muted); font-size: 17px; margin-bottom: 24px; }
 .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+.hero-tunggal { text-align: center; max-width: 760px; margin: 0 auto; }
+.hero-tunggal .hero-cta { justify-content: center; }
 
 /* ---------- Foto placeholder (ganti dengan <img> asli) ---------- */
 .foto-frame {
@@ -86,7 +88,6 @@ a { color: inherit; }
 
 /* ---------- Foto asli (Cloudinary) ---------- */
 .foto-img { width: 100%; height: 190px; object-fit: cover; border-radius: var(--radius); display: block; }
-.foto-img-hero { height: 320px; box-shadow: 0 16px 40px rgba(14,42,92,.18); }
 .galeri-item img { width: 100%; height: 200px; object-fit: cover; border-radius: var(--radius); display: block; }
 .galeri-item p { color: #4b5563; font-size: 14px; margin-top: 4px; }
 
@@ -239,6 +240,8 @@ footer#kontak a:hover { text-decoration: underline; }
   .timeline::before { left: 27px; }
   .langkah-item { gap: 16px; padding-bottom: 36px; }
   .no-rek { font-size: 22px; overflow-wrap: anywhere; }
+  .peta-kontak { padding: 20px 0 0; }
+  .peta-kontak iframe { height: 320px; }
   .wa-float { padding: 10px 16px; font-size: 14px; right: 12px; bottom: 12px; }
 }
 
@@ -256,6 +259,19 @@ footer#kontak a:hover { text-decoration: underline; }
 .tabel { width: 100%; border-collapse: collapse; background: #fff; }
 .tabel th, .tabel td { border: 1px solid #e5e7eb; padding: 10px 12px; text-align: left; }
 .tabel th { background: var(--navy); color: #fff; }
+
+/* ---------- Peta & kartu kontak (halaman Kontak) ---------- */
+.peta-kontak { padding: 32px 0 0; }
+.peta-kontak iframe { width: 100%; height: 420px; border: 1px solid var(--garis); border-radius: var(--radius); display: block; }
+.label-pill { display: inline-block; background: var(--abu); color: var(--muted); font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 6px 16px; border-radius: 999px; }
+.kontak-grid { margin-top: 36px; text-align: center; }
+.kontak-card { background: #fff; border: 1px solid var(--garis); border-radius: var(--radius); padding: 32px 20px; box-shadow: var(--shadow-card); text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; gap: 12px; transition: transform .15s ease, box-shadow .15s ease; }
+.kontak-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); }
+.kontak-ikon { width: 56px; height: 56px; border-radius: 12px; background: var(--abu); display: inline-flex; align-items: center; justify-content: center; }
+.kontak-ikon svg { width: 28px; height: 28px; stroke: var(--navy); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.kontak-card strong { font-size: 17px; font-weight: 700; color: var(--navy); overflow-wrap: anywhere; }
+.kontak-sub { color: var(--muted); font-size: 14px; }
+.kontak-catatan { text-align: center; color: var(--muted); font-size: 14px; margin-top: 28px; }
 
 /* ---------- Filter galeri ---------- */
 .filter-bar { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-bottom: 28px; }
