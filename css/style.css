@@ -184,7 +184,7 @@ a { color: inherit; }
 
 /* ---------- Donasi ---------- */
 .rekening { text-align: center; display: flex; flex-direction: column; }
-.rekening .btn { margin-top: auto; align-self: center; }
+.rekening .btn { margin-top: 16px; align-self: center; }
 .no-rek { font-size: 26px; font-weight: 800; letter-spacing: 1px; color: var(--hijau-tua); margin: 8px 0; }
 .salin-info { text-align: center; color: #065f46; font-weight: 600; margin-top: 16px; min-height: 22px; }
 
