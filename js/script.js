@@ -237,7 +237,7 @@ document.querySelectorAll("[data-salin]").forEach((btn) => {
       document.execCommand("copy");
       tmp.remove();
     }
-    if (salinInfo) salinInfo.textContent = `✅ Nomor rekening ${nomor} berhasil disalin.`;
+    if (salinInfo) salinInfo.innerHTML = `✅ Nomor rekening ${nomor} berhasil disalin. Selanjutnya, <a href="#formDonasi">isi formulir konfirmasi donasi di bawah</a>.`;
     btn.textContent = "Tersalin ✓";
     setTimeout(() => { btn.textContent = "Salin Nomor Rekening"; }, 2500);
   });
