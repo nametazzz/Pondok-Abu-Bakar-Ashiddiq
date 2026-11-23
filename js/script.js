@@ -58,7 +58,7 @@ const DATA_PROGRAM = {
   boarding: {
     judul: "Tahfidz Al-Qur'an (Boarding) untuk SMP dan SMA",
     isi: `<p><b>Jenjang:</b> SMP &amp; SMA dengan sistem mukim penuh untuk ikhwan &amp; akhwat.</p>
-      <p><b>Program unggulan:</b> Tahfidz Al-Qur'an dengan 2 riwayat (Hafsh &amp; Syu'bah) dibimbing pengajar bersanad bersertifikat CTrQ, Bahasa Arab Dasar, hafalan hadits pilihan, praktik ibadah yang benar, dan khotam (qiro'ah) Al-Qur'an rutin.</p>
+      <p><b>Program unggulan:</b> Tahfidz Al-Qur'an dengan 2 riwayat (Hafs &amp; Syu'bah) dibimbing pengajar bersanad bersertifikat CTrQ, Bahasa Arab Dasar, hafalan hadits pilihan, praktik ibadah yang benar, dan khotam (qiro'ah) Al-Qur'an rutin.</p>
       <p><b>Pembiasaan harian:</b> shalat jamaah tepat waktu, shalat sunnah, doa &amp; dzikir harian, dan adab Islami.</p>
       <p><a href="psb.html">Daftar program ini →</a></p>`,
   },
@@ -75,7 +75,7 @@ const DATA_BERITA = {
   psb: {
     judul: "PSB Tahun Ajaran Baru Dibuka",
     isi: `<p>Penerimaan santri baru Pondok Pesantren Abu Bakar Ashiddiq telah dibuka untuk tahun ajaran baru, jenjang SMP &amp; SMA untuk ikhwan &amp; akhwat.</p>
-      <p><b>Biaya:</b> pendaftaran Rp200.000; bulanan Rp350.000. Keunggulan: menghafal dengan 2 riwayat (Hafsh &amp; Syu'bah) bersama pengajar bersanad.</p>
+      <p><b>Biaya:</b> pendaftaran Rp200.000; bulanan Rp350.000. Keunggulan: menghafal dengan 2 riwayat (Hafs &amp; Syu'bah) bersama pengajar bersanad.</p>
       <p>Pendaftaran dibuka pada 17 Oktober sampai 25 Juni (sampai kuota terpenuhi) lewat <a href="https://bit.ly/ppdb-abubakaradshiddiq-tasikmalaya" target="_blank" rel="noopener">formulir online resmi</a>. Info: WhatsApp 0852-2324-6565 (Ustadz Asep Juhana) atau halaman <a href="psb.html">Pendaftaran</a>.</p>`,
   },
   "sedekah-jumat": {
